@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Task3.Controllers
 {
-    public class testController : Controller
+    public class TEST : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
@@ -16,18 +16,25 @@ namespace Task3.Controllers
             return View();
         }
 
-      
-       public IActionResult Contact()
+        public IActionResult blog()
         {
 
             return View();
         }
 
-        public IActionResult blog()
+        public IActionResult shop()
         {
-
             return View();
+        }
 
+        public IActionResult features()
+        {
+            return View();
+        }
+
+        public IActionResult about()
+        {
+            return View();
         }
     }
 }
